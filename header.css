@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+
+}
+
+
+@media screen and (min-width: 1440px) { 
+      
+    .title{
+        font-family: 'Barlow', sans-serif;
+        color: black;
+        align-content: center;
+        padding: 3vw;
+    }
+    .container{
+      display: flex;
+      border: 3px solid red;
+      background-color: cyan;
+      color: black;
+      margin: 0px;
+      
+    }
+
+
+    li, a, button{
+      /* font-family: 'Inconsolata', monospace; */
+
+      font-family: 'Barlow', sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      color: black;
+      text-decoration: none;
+    }
+
+
+    header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 5%;
+
+      /* border: 1px solid green; */
+
+    }
+
+    .header-object1, .header-object2{
+      width: 52px;
+      /* border: 1px solid blue; */
+    }
+
+    nav{
+      /* border: 1px solid pink; */
+      display: flex;
+      justify-content: center;
+    }
+
+
+    .nav_title{
+    font-weight: bolder;
+    font-family: 'Inconsolata', monospace;
+
+    /* font-family: 'Barlow', sans-serif; */
+    font-size: larger;
+    }
+
+    .nav_title a:hover{
+      cursor: pointer;
+    }
+    .resume{
+      font-family: 'Barlow', sans-serif;
+      color: black;
+    }
+    .resume a:hover{
+      cursor: pointer;
+    }
+
+    .nav_title{
+      color: black;
+    }
+
+    .nav_links li {
+        display: inline-block;
+        padding:  0px 30px;
+    }
+
+
+    .nav_links li a{
+      transition: all 0.2s ease 0.1s;
+    }
+
+    .nav_links li a:hover{
+        color: #39257a;
+        text-decoration: underline;
+    }
+
+    .nav_links{
+      display: flex;
+      justify-content: space-around;
+
+
+    }
+
+
+    .nav_links li a, .nav_title, .resume {
+      transition: all 0.3s ease 0s;
+    }
+
+    .nav_links li a:hover ,.header-object1:hover,.header-object2:hover{
+        color: #39257a;
+        text-decoration: underline;
+    }
+  }
+
+
+/* tablet */
+  @media screen and (max-width: 1439px) and (min-width: 480px) {
+    .title{
+      font-family: 'Barlow', sans-serif;
+      color: black;
+      align-content: center;
+      padding: 3vw;
+  }
+  .container{
+    display: flex;
+    border: 3px solid red;
+    background-color: cyan;
+    color: black;
+    margin: 0px;
+    
+  }
+
+
+  li, a, button{
+    /* font-family: 'Inconsolata', monospace; */
+
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+
+    /* border: 1px solid green; */
+
+  }
+
+  .header-object1, .header-object2{
+    width: 52px;
+    /* border: 1px solid blue; */
+  }
+
+  nav{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .nav_title{
+  font-weight: bolder;
+  font-family: 'Inconsolata', monospace;
+
+  /* font-family: 'Barlow', sans-serif; */
+  font-size: larger;
+  }
+
+  .nav_title a:hover{
+    cursor: pointer;
+  }
+  .resume{
+    font-family: 'Barlow', sans-serif;
+    color: black;
+  }
+  .resume a:hover{
+    cursor: pointer;
+  }
+
+  .nav_title{
+    color: black;
+  }
+
+  .nav_links li {
+      display: inline-block;
+      padding:  0px 30px;
+  }
+
+
+  .nav_links li a{
+    transition: all 0.2s ease 0.1s;
+  }
+
+  .nav_links li a:hover{
+      color: #39257a;
+      text-decoration: underline;
+  }
+
+  .nav_links{
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+
+
+  .nav_links li a, .nav_title, .resume {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover ,.header-object1:hover,.header-object2:hover{
+      color: #39257a;
+      text-decoration: underline;
+  }
+
+
+  }
+
+  /* iphone */
+  @media screen and (max-width: 479px) {
+    .title{
+      font-family: 'Barlow', sans-serif;
+      color: black;
+      align-content: center;
+      padding: 3vw;
+  }
+  .container{
+    display: flex;
+    border: 3px solid red;
+    background-color: cyan;
+    color: black;
+    margin: 0px;
+    
+  }
+
+
+  li, a, button{
+    /* font-family: 'Inconsolata', monospace; */
+
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+
+    /* border: 1px solid green; */
+
+  }
+
+  .header-object1, .header-object2{
+    width: 52px;
+    /* border: 1px solid blue; */
+  }
+
+  nav{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .nav_title{
+  font-weight: bolder;
+  font-family: 'Inconsolata', monospace;
+
+  /* font-family: 'Barlow', sans-serif; */
+  font-size: larger;
+  }
+
+  .nav_title a:hover{
+    cursor: pointer;
+  }
+  .resume{
+    font-family: 'Barlow', sans-serif;
+    color: black;
+  }
+  .resume a:hover{
+    cursor: pointer;
+  }
+
+  .nav_title{
+    color: black;
+  }
+
+  .nav_links li {
+      display: inline-block;
+      padding:  0px 30px;
+  }
+
+
+  .nav_links li a{
+    transition: all 0.2s ease 0.1s;
+  }
+
+  .nav_links li a:hover{
+      color: #39257a;
+      text-decoration: underline;
+  }
+
+  .nav_links{
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+
+
+  .nav_links li a, .nav_title, .resume {
+    transition: all 0.3s ease 0s;
+  }
+
+  .nav_links li a:hover ,.header-object1:hover,.header-object2:hover{
+      color: #39257a;
+      text-decoration: underline;
+  }
+}
+
+
+/* tablet */
+@media screen and (max-width: 1439px) and (min-width: 480px) {
+
+  .title{
+    font-family: 'Barlow', sans-serif;
+    color: black;
+    align-content: center;
+    padding: 3vw;
+}
+/* .container{
+  display: flex;
+  border: 3px solid red;
+  background-color: cyan;
+  color: black;
+  margin: 0px;
+  
+} */
+
+
+/* li, a, button{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: red;
+  text-decoration: none;
+} */
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 3%;
+
+  /* border: 1px solid green; */
+
+}
+
+.header-object1, .header-object2{
+  width: 52px;
+  /* border: 1px solid blue; */
+}
+
+nav{
+  /* border: 1px solid pink; */
+  display: flex;
+  justify-content: center;
+}
+
+
+/* .nav_title{
+font-weight: bolder;
+font-family: 'Inconsolata', monospace;
+font-size: 12px;
+} */
+
+.nav_title a:hover{
+  cursor: pointer;
+}
+/* .resume{
+  font-family: 'Barlow', sans-serif;
+  color: black;
+}
+.resume a:hover{
+  cursor: pointer;
+}
+
+.nav_title{
+  color: black;
+} */
+
+.nav_links li {
+    /* display: inline-block; */
+    padding:  0px 20px;
+}
+
+
+.nav_links li a{
+  transition: all 0.2s ease 0.1s;
+}
+
+.nav_links li a:hover{
+    color: #39257a;
+    text-decoration: underline;
+}
+
+.nav_links{
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+
+.nav_links li a, .nav_title, .resume {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover ,.header-object1:hover,.header-object2:hover{
+    color: #39257a;
+    text-decoration: underline;
+}
+
+}
+
+/* iphone */
+  @media screen and (max-width: 479px) {
+    .title{
+      font-family: 'Barlow', sans-serif;
+      color: black;
+      align-content: center;
+      padding: 3vw;
+  }
+  /* .container{
+    display: flex;
+    border: 3px solid red;
+    background-color: cyan;
+    color: black;
+    margin: 0px;
+    
+  } */
+  
+  
+  /* li, a, button{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: red;
+    text-decoration: none;
+  } */
+  
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 3%;
+  
+    /* border: 1px solid green; */
+  
+  }
+  
+  .header-object1, .header-object2{
+    width: 52px;
+    /* border: 1px solid blue; */
+  }
+  
+  .nav_links a, .header-object1, .header-object2{
+    font-size: 14px;
+  }
+
+  nav{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /* .nav_title{
+  font-weight: bolder;
+  font-family: 'Inconsolata', monospace;
+  font-size: 12px;
+  } */
+  
+  .nav_title a:hover{
+    cursor: pointer;
+  }
+  /* .resume{
+    font-family: 'Barlow', sans-serif;
+    color: black;
+  }
+  .resume a:hover{
+    cursor: pointer;
+  }
+  
+  .nav_title{
+    color: black;
+  } */
+  
+  .nav_links li {
+      /* display: inline-block; */
+      padding:  0px 5px;
+  }
+  
+  
+  .nav_links li a{
+    transition: all 0.2s ease 0.1s;
+  }
+  
+  .nav_links li a:hover{
+      color: #39257a;
+      text-decoration: underline;
+  }
+  
+  .nav_links{
+    display: flex;
+    justify-content: space-around;
+  
+  
+  }
+  
+  
+  .nav_links li a, .nav_title, .resume {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav_links li a:hover ,.header-object1:hover,.header-object2:hover{
+      color: #39257a;
+      text-decoration: underline;
+  }
+
+
+  }

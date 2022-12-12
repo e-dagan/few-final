@@ -1,0 +1,174 @@
+/* Desktop */
+@media screen and (min-width: 1440px) { 
+    #projectCreative{
+        font-family: 'Barlow', sans-serif;
+        color: black;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+
+
+    }
+
+    /* I dont think the # is doing anything */
+    #project, img{
+      display: column;
+      justify-content: flex-end;
+      flex-direction: column;
+      
+    }
+
+
+    .project-picture{
+      width: 50vw;
+      /* height: 250px; */
+      border-radius: 10px;
+      margin: auto;
+      /* padding: 12px; */
+
+    }
+
+    .project-title{
+      margin: auto;
+      font-family: 'Barlow', sans-serif;
+      padding-bottom: 1vh;
+
+    }
+    .project-subtext{
+      margin: auto;
+      font-family: 'Barlow', sans-serif;
+      padding-bottom: 8vh;
+      padding-top: 2vh;
+      font-size: 20px;
+    }
+
+
+    footer{
+      height: 12vh;
+    }
+
+    #item2{
+      transition: transform 250ms;
+      color: black;
+      font-weight: bolder;
+      font-size: 26px;
+    }
+
+}
+
+/* tablet */
+@media screen and (max-width: 1439px) and (min-width: 480px) {
+        #projectCreative{
+          font-family: 'Barlow', sans-serif;
+          color: black;
+          display: flex;
+          margin: auto;
+          flex-direction: column;
+
+
+      }
+
+      /* I dont think the # is doing anything */
+      #project, img{
+        display: column;
+        justify-content: flex-end;
+        flex-direction: column;
+        
+      }
+
+
+      .project-picture{
+        width: 65vw;
+        /* height: 250px; */
+        border-radius: 10px;
+        margin: auto;
+        /* padding: 12px; */
+
+      }
+
+      .project-title{
+        margin: auto;
+        font-family: 'Barlow', sans-serif;
+        padding-bottom: 1vh;
+
+      }
+      .project-subtext{
+        margin: auto;
+        font-family: 'Barlow', sans-serif;
+        padding-bottom: 8vh;
+        padding-top: 2vh;
+        font-size: 20px;
+        width: 70vw;
+      }
+
+
+      footer{
+        height: 12vh;
+      }
+
+      #item2{
+        transition: transform 250ms;
+        color: black;
+        font-weight: bolder;
+        font-size: 26px;
+      }
+}
+
+
+  /* iphone */
+  @media screen and (max-width: 479px) {
+    #projectCreative{
+      font-family: 'Barlow', sans-serif;
+      color: black;
+      display: flex;
+      margin: auto;
+      flex-direction: column;
+
+
+  }
+
+  /* I dont think the # is doing anything */
+  #project, img{
+    display: column;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+  }
+
+
+  .project-picture{
+    width: 70vw;
+    /* height: 250px; */
+    border-radius: 10px;
+    margin: auto;
+    /* padding: 12px; */
+
+  }
+
+  .project-title{
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 1vh;
+
+  }
+  .project-subtext{
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 8vh;
+    padding-top: 2vh;
+    font-size: 16px;
+    width: 90vw;
+  }
+
+
+  footer{
+    height: 6vh;
+  }
+
+  /* #item2{
+    transition: transform 250ms;
+    color: black;
+    font-weight: bolder;
+    font-size: 26px;
+  } */
+}

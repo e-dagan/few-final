@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+
+.subpage-container{
+    display: flex;
+    /* border: 3px solid red;
+    background-color: cyan; */
+    margin: auto;
+    margin-top: 5%;
+    height: auto;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-title{
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 2%;
+}
+
+
+.detail{
+    font-size: 22px;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 10px;
+}
+
+
+.subpage-body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.subtext{
+    font-size: 22px;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+    padding: 2vh;
+    /* width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw; */
+}
+.subtext2{
+    font-size: 22px;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Barlow', sans-serif;
+    padding: 2vh;
+    /* width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw; */
+}
+
+
+.img{
+    justify-content: center;
+
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.img1{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    padding: 5px;
+    transition: transform 250ms;
+}
+
+#image2{
+    display: flex;
+    justify-content: center;
+    transition: transform 250ms;
+    flex-direction: column;
+    
+}
+
+
+
+
+.img2{
+    width: 40vw;
+    height: auto;
+    padding: 10px;
+    transition: transform 250ms;
+    justify-content: center;
+    margin: auto;
+}
+
+.img1:hover, .img2:hover{
+    transform: translateY(-5px);
+
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid red; */
+    /* background-color: #e9ecf2; */
+    justify-content: space-between;
+    width: 50vw;
+    padding: 1%;
+}
+
+#item3{
+    transition: transform 250ms;
+    color: black;
+    font-weight: bolder;
+    font-size: 26px;
+  }
+
+
+ .img_large{
+    width: 60vw;
+    height: auto;
+    padding: 5px;
+    transition: transform 250ms;
+ }
+
+#link{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgage-column{
+    display: flex;
+    width: 68vw;
+    border: 3px solid red; 
+    
+}
+
+.imgage-column img{
+    padding: 20px;
+}
+
+footer{
+    height: 3vh;
+}

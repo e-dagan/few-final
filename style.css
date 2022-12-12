@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Poppins:ital@0;1&display=swap');
+
+
+/* .backdrop{
+  border-radius: 3px;
+  color: blue;
+  margin: auto;
+  width: 95%;
+  height: 30vh;
+  color: black;
+} */
+
+/* .project-wrapper{
+  padding-top: 5vh;
+
+}
+.welcome-text{
+  font-family: 'satoshi', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  position: absolute;
+  left: 20vw;
+  top: 20vh;
+}
+
+.project-item{
+  height: auto;
+  width: 66vw;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 2%;
+  justify-content: center;
+  color: black;
+  text-align: center; 
+}
+
+.select-img{
+  width: 65vw;
+  transition: transform 250ms;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.select-img:hover{
+  transform: translateY(-5px);
+}
+
+.project-item{
+  justify-content: flex-end;
+  flex-direction: column;
+
+}
+
+.project-card{
+  font-family: 'satoshi', sans-serif;
+
+}
+
+#animation-text{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+  height: 300px;
+}
+
+.select{
+  font-family: 'satoshi', sans-serif;
+  font-style: italic;
+  font-size: 18;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  padding-top: 8vh;
+}
+
+.type-animation{
+  font-family: 'satoshi', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 20px;
+  padding-top: 8vh;
+  height: 30vh;
+  padding-bottom: 28vh;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.ityped{
+  padding: 5px;
+}
+
+.header-object1{
+  color: black;
+  font-weight: bolder;
+  font-size: 26px;
+}
+
+
+footer{
+  height: 5vh;
+}
+
+
+section{
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 50vh;
+}
+
+
+ .hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform:translateX(20px);
+  transition: all 5s;
+
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+ */
+
+
+
+@media screen and (min-width: 1440px) { 
+
+  .project-wrapper{
+    padding-top: 5vh;
+  
+  }
+  .welcome-text{
+    font-family: 'satoshi', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+  }
+  
+  .project-item{
+    height: auto;
+    width: 66vw;
+    /* border-radius: 3px; */
+    /* color: blue; */
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 2%;
+    justify-content: center;
+    /* border: 3px solid red; */
+    /* background-color: rgb(174, 180, 192); */
+    color: black;
+    text-align: center; 
+  }
+  
+  .select-img{
+    /* max-height: 100%;
+    max-width: 100%;   */
+    width: 65vw;
+    transition: transform 250ms;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .select-img:hover{
+    transform: translateY(-5px);
+  }
+  
+  .project-item{
+    justify-content: flex-end;
+    flex-direction: column;
+  
+  }
+  
+  .project-card{
+    font-family: 'satoshi', sans-serif;
+  
+  }
+  
+  #animation-text{
+      /* border: 3px solid red; */
+      height: 10vh;
+      display: flex;
+      flex-direction: column;
+      
+  
+  }
+  
+  .intro{
+    height: 300px;
+  }
+  
+  .select{
+    font-family: 'satoshi', sans-serif;
+    font-style: italic;
+    font-size: 18;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    padding-top: 8vh;
+  }
+
+  .type-animation{
+    font-family: 'satoshi', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 20px;
+    padding-top: 8vh;
+    height: 30vh;
+    padding-bottom: 28vh;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+  
+  .ityped{
+    padding: 5px;
+  }
+  
+  .header-object1{
+    color: black;
+    font-weight: bolder;
+    font-size: 26px;
+  }
+  
+  
+  footer{
+    height: 5vh;
+  }
+  
+  
+  section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 50vh;
+  }
+  
+  
+   .hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform:translateX(20px);
+    transition: all 5s;
+  
+  }
+  
+  .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 1439px) and (min-width: 480px) {
+
+  .project-wrapper{
+    padding-top: 5vh;
+  
+  }
+  .welcome-text{
+    font-family: 'satoshi', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+  }
+  
+  .project-item{
+    height: auto;
+    width: 66vw;
+    /* border-radius: 3px; */
+    /* color: blue; */
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 2%;
+    justify-content: center;
+    /* border: 3px solid red; */
+    /* background-color: rgb(174, 180, 192); */
+    color: black;
+    text-align: center; 
+  }
+  
+  .select-img{
+    /* max-height: 100%;
+    max-width: 100%;   */
+    width: 65vw;
+    transition: transform 250ms;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .select-img:hover{
+    transform: translateY(-5px);
+  }
+  
+  .project-item{
+    justify-content: flex-end;
+    flex-direction: column;
+  
+  }
+  
+  .project-card{
+    font-family: 'satoshi', sans-serif;
+  
+  }
+  
+  #animation-text{
+      /* border: 3px solid red; */
+      height: 10vh;
+      display: flex;
+      flex-direction: column;
+      
+  
+  }
+  
+  .intro{
+    height: 300px;
+  }
+  
+  .select{
+    font-family: 'satoshi', sans-serif;
+    font-style: italic;
+    font-size: 18;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    padding-top: 8vh;
+  }
+
+  .type-animation{
+    font-family: 'satoshi', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 20px;
+    padding-top: 8vh;
+    height: 30vh;
+    padding-bottom: 28vh;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+  
+  .ityped{
+    padding: 5px;
+  }
+  
+  .header-object1{
+    color: black;
+    font-weight: bolder;
+    font-size: 26px;
+  }
+  
+  
+  footer{
+    height: 5vh;
+  }
+  
+  
+  section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 50vh;
+  }
+  
+  
+   .hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform:translateX(20px);
+    transition: all 5s;
+  
+  }
+  
+  .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+}
+
+
+
+@media screen and (max-width: 479px) {
+
+  .project-wrapper{
+    padding-top: 5vh;
+  
+  }
+  .welcome-text{
+    font-family: 'satoshi', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    left: 20vw;
+    top: 20vh;
+  }
+  
+  .project-item{
+    height: auto;
+    width: 66vw;
+    /* border-radius: 3px; */
+    /* color: blue; */
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 2%;
+    justify-content: center;
+    /* border: 3px solid red; */
+    /* background-color: rgb(174, 180, 192); */
+    color: black;
+    text-align: center; 
+  }
+  
+  .select-img{
+    /* max-height: 100%;
+    max-width: 100%;   */
+    width: 65vw;
+    transition: transform 250ms;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .select-img:hover{
+    transform: translateY(-5px);
+  }
+  
+  .project-item{
+    justify-content: flex-end;
+    flex-direction: column;
+  
+  }
+  
+  .project-card{
+    font-family: 'satoshi', sans-serif;
+  
+  }
+  
+  #animation-text{
+      /* border: 3px solid red; */
+      height: 10vh;
+      display: flex;
+      flex-direction: column;
+      
+  
+  }
+  
+  .intro{
+    height: 300px;
+  }
+  
+  .select{
+    font-family: 'satoshi', sans-serif;
+    font-style: italic;
+    font-size: 18;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    padding-top: 8vh;
+  }
+
+  .type-animation{
+    font-family: 'satoshi', sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 20px;
+    padding-top: 8vh;
+    height: 30vh;
+    padding-bottom: 28vh;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+  
+  .ityped{
+    padding: 5px;
+  }
+  
+  .header-object1{
+    color: black;
+    font-weight: bolder;
+    font-size: 26px;
+    text-decoration: underline;
+  }
+  
+
+
+
+  footer{
+    height: 5vh;
+  }
+  
+  
+  section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 50vh;
+  }
+  
+  
+   .hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform:translateX(20px);
+    transition: all 5s;
+  
+  }
+  
+  .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+}

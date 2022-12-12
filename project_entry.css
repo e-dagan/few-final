@@ -1,0 +1,38 @@
+/* Individual Entry CSS */
+
+
+
+
+#projectPhoto{
+    font-family: 'Barlow', sans-serif;
+    color: black;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+
+}
+
+/* I dont think the # is doing anything */
+.picture{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.page-title{
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+
+}
+.project-subtext{
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 5vh;
+}
+.body-text{
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+
+}
