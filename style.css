@@ -413,7 +413,7 @@ section{
     /* border-radius: 3px; */
     /* color: blue; */
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 3vh;
     margin-bottom: 2%;
     justify-content: center;
     /* border: 3px solid red; */
@@ -425,7 +425,7 @@ section{
   .select-img{
     /* max-height: 100%;
     max-width: 100%;   */
-    width: 65vw;
+    width: 70vw;
     transition: transform 250ms;
     border-radius: 10px;
     justify-content: center;
@@ -466,7 +466,7 @@ section{
     justify-content: center;
     margin: 0;
     text-align: center;
-    padding-top: 8vh;
+    /* padding-top: 8vh; */
   }
 
   .type-animation{
@@ -477,7 +477,7 @@ section{
     padding: 20px;
     padding-top: 8vh;
     height: 30vh;
-    padding-bottom: 28vh;
+    padding-bottom: 10vh;
     width: 100%;
     color: black;
     text-align: center;
@@ -490,7 +490,7 @@ section{
   .header-object1{
     color: black;
     font-weight: bolder;
-    font-size: 26px;
+    font-size: 20px;
     text-decoration: underline;
   }
   

@@ -177,7 +177,7 @@
   .about_text {
     color: black;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 140%;
     font-family: 'Barlow', sans-serif;
   }
@@ -207,6 +207,11 @@
 
   .about_logos li a:hover {
     color: black;
+    text-decoration: underline;
+  }
+
+  .header-object2{
+    font-size: 18px;
     text-decoration: underline;
   }
 
