@@ -114,6 +114,11 @@
         color: #39257a;
         text-decoration: underline;
     }
+
+
+    header{
+      height: 4vh;
+    }
   }
 
 
