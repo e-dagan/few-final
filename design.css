@@ -20,11 +20,21 @@
 }
 
 
+
+
 .project-picture{
   width: 40vw;
   border-radius: 10px;
   margin: auto;
   /* padding: 12px; */
+  transition: transform 250ms;
+
+}
+
+
+.project-picture:hover {
+  transform: translateY(-5px);
+
 }
 
 .project-title{
@@ -78,8 +88,15 @@ footer{
   border-radius: 10px;
   margin: auto;
   /* padding: 12px; */
+  transition: transform 250ms;
+
 }
 
+
+.project-picture:hover {
+  transform: translateY(-5px);
+
+}
 .project-title{
   margin: auto;
   font-family: 'Barlow', sans-serif;
@@ -136,6 +153,14 @@ footer{
   border-radius: 10px;
   margin: auto;
   /* padding: 12px; */
+  transition: transform 250ms;
+
+}
+
+
+.project-picture:hover {
+  transform: translateY(-5px);
+
 }
 
 .project-title{

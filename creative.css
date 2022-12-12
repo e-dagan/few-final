@@ -26,7 +26,15 @@
       margin: auto;
       /* padding: 12px; */
 
-    }
+      transition: transform 250ms;
+
+}
+
+
+.project-picture:hover {
+  transform: translateY(-5px);
+
+}
 
     .project-title{
       margin: auto;
@@ -84,7 +92,15 @@
         margin: auto;
         /* padding: 12px; */
 
-      }
+        transition: transform 250ms;
+
+}
+
+
+.project-picture:hover {
+  transform: translateY(-5px);
+
+}
 
       .project-title{
         margin: auto;
@@ -143,7 +159,15 @@
     margin: auto;
     /* padding: 12px; */
 
-  }
+    transition: transform 250ms;
+
+}
+
+
+.project-picture:hover {
+  transform: translateY(-5px);
+
+}
 
   .project-title{
     margin: auto;
