@@ -20,7 +20,7 @@
 
 
     .project-picture{
-      width: 50vw;
+      width: 40vw;
       /* height: 250px; */
       border-radius: 10px;
       margin: auto;
@@ -78,7 +78,7 @@
 
 
       .project-picture{
-        width: 65vw;
+        width: 45vw;
         /* height: 250px; */
         border-radius: 10px;
         margin: auto;
@@ -98,7 +98,7 @@
         padding-bottom: 8vh;
         padding-top: 2vh;
         font-size: 20px;
-        width: 70vw;
+        width: 40vw;
       }
 
 

@@ -21,7 +21,7 @@
 
 
 .project-picture{
-  width: 50vw;
+  width: 40vw;
   border-radius: 10px;
   margin: auto;
   /* padding: 12px; */
@@ -74,7 +74,7 @@ footer{
 
 
 .project-picture{
-  width: 65vw;
+  width: 45vw;
   border-radius: 10px;
   margin: auto;
   /* padding: 12px; */
@@ -92,7 +92,7 @@ footer{
   padding-bottom: 8vh;
   padding-top: 2vh;
   font-size: 20px;
-  width: 70vw;
+  width: 40vw;
 
 }
 
