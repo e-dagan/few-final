@@ -164,10 +164,10 @@
 }
 
 
-.project-picture:hover {
-  transform: translateY(-5px);
+    .project-picture:hover {
+    transform: translateY(-5px);
 
-}
+    }
 
   .project-title{
     margin: auto;
