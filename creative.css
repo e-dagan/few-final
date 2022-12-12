@@ -94,13 +94,13 @@
 
         transition: transform 250ms;
 
-}
+        }
 
 
-.project-picture:hover {
+  .project-picture:hover {
   transform: translateY(-5px);
 
-}
+    }
 
       .project-title{
         margin: auto;
