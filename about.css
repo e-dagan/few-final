@@ -83,7 +83,7 @@
 }
 
 /* tablet */
-@media screen and (max-width: 1439px) and (min-width: 480px) {
+@media screen and (max-width: 1439px) and (min-width: 800px) {
 
 
   .about_container {
@@ -147,7 +147,7 @@
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 799px) {
 
 
   .about_container {
@@ -166,6 +166,8 @@
     border-radius: 10px;
     transition: transform 250ms;
     width: 50%;
+    justify-content: center;
+    
   }
 
   #about_img img:hover {
